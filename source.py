@@ -17,9 +17,9 @@ def navigate_and_click(driver, url, locator, timeout=10):
 # Choose options from dropdowns
 def choose_options(driver, dropdowns, options):
     for dropdown_key, dropdown_id in dropdowns.items():
-        dropdown = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, dropdown_id)))
+        dropdown = WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.ID, dropdown_id)))
         dropdown.click()
-        option = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, options[dropdown_key])))
+        option = WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.XPATH, options[dropdown_key])))
         option.click()
 
 # Wait for file download completion

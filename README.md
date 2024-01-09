@@ -1,11 +1,30 @@
-Chrome Version: 120.0.6099.200
-Dependency: Python-pip 
-            requests 
-            pandas 
-            openpyxl
-            selenium
+# Project ReadMe
 
-WebDriver is included for Version Specified
-To run: python3 source.py
+## Environment Configuration:
 
-Script generates 2 CSV files, one only with the totals for each age category. The other one consist only in the data of each of the details inside Crimes Against Property category, without index, footer, header nor totals
+- **Chrome Version:** 120.0.6099.200
+- **Dependency:** Python with pip
+- **Python Libraries:**
+  - requests
+  - pandas
+  - openpyxl
+  - selenium
+
+## WebDriver Inclusion:
+
+The required WebDriver is included in the project for the specified Chrome version. No additional download or configuration is needed.
+
+## Setup:
+
+1. **Install Python:** Ensure Python is installed on your machine. If not, you can download it from [python.org](https://www.python.org/downloads/).
+
+2. **Install Dependencies:**
+   ```bash
+   pip install requests pandas openpyxl selenium
+
+## Running the Script:
+
+To execute the script, use the following command:
+
+```bash
+python3 source.py

@@ -1,5 +1,3 @@
-# Project ReadMe
-
 ## Environment Configuration:
 
 - **Chrome Version:** 120.0.6099.200
